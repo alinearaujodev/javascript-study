@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            div#area{
+                background-color: blue; 
+                color: white; 
+                width: 200px; 
+                height: 200px;
+                line-height: 200px;
+                text-align: center;
+                font-size: 15pt;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="area">
+            Interaja....
+        </div>
+        <br/>
+        <div>
+            Número 1: <input type="number" name="txt1" id="txt1">
+            Número 2: <input type="number" name="txt2" id="txt2">
+            <input type="submit" value="Somar" onclick="somar()">
+            <div id="resultado">Resultado: </div>
+        </div>
+
+       <script>
+           // Eventos DOM
+            var a = document.getElementById('area') 
+            a.addEventListener('click', clicar)
+            a.addEventListener('mouseover', entrar)
+            a.addEventListener('mouseout', sair)
+            
+            function clicar(){  
+                a.innerText = 'Clicou!'
+                a.style.backgroundColor = 'red'
+            }
+
+            function entrar(){   
+                a.style.backgroundColor = 'green'
+            }
+
+            function sair(){
+                a.style.backgroundColor = 'blue'
+            }
+
+            function somar(){
+                var tn1 = document.getElementById('txt1')
+                var tn2 = document.getElementById('txt2')
+                var resultado = document.getElementById('resultado')
+                var n1 = Number(txt1.value)
+                var n2 = Number(txt2.value)
+                var soma = n1+n2
+                resultado.innerHTML = 'Resultado = ' + soma
+            }
+
+       </script>
+    </body>
+</html>
