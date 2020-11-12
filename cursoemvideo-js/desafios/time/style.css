@@ -1,0 +1,15 @@
+body{
+    background-color: #404a52;
+    font: normal 12pt Arial;
+    text-align: center; 
+    color: white;
+}
+
+div#box{
+    border-radius: 10px;
+    color: white; 
+    width: 500px; 
+    margin: auto;    
+    line-height: 450px;    
+    box-shadow: 5px 5px 10px rgb(48, 46, 46);
+}
