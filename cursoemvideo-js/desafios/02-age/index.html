@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>How old are you?</title>
     </head>
     <body>
@@ -12,24 +13,26 @@
 
         <main>
             <section id="box">
-                <form action="index.html">
-                    <div>
-                        <label>Ano de Nascimento:</label>
-                        <input type="number" name="year" id="year">
-                    </div>
-                    <div>
-                        <label>Sexo:</label>
-                        <input type="radio" name="sexo" id="masc">Masculino
-                        <input type="radio" name="sexo" id="fem">Feminino
-                    </div>
-                    <input type="submit" value="Verificar">
-                </form>
-                <div id="age"></div>
+                <div>
+                    <label>Ano de Nascimento:</label>
+                    <input type="number" name="year" id="year">
+                </div>
+                <div>
+                    <label>Sexo:</label>
+                    <input type="radio" name="sexo" id="masc" checked>Masculino
+                    <input type="radio" name="sexo" id="fem">Feminino
+                </div>
+                <input id="botao" type="submit" value="Verificar Idade" onclick="verificar()">
+                <div id="age">
+                    <img id="image">
+                </div>
             </section>
         </main>
 
         <footer>
+            <hr>
             <p>Love, <a href="http://www.github.com/alinearaujodev" target="_blank">Aline</a></p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
