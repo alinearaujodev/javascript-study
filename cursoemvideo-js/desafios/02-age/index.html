@@ -14,18 +14,16 @@
         <main>
             <section id="box">
                 <div>
-                    <label>Ano de Nascimento:</label>
-                    <input type="number" name="year" id="year">
+                    <p>Ano de Nascimento:
+                        <input type="number" name="year" id="year">
+                    </p>
+                    <p>Sexo:
+                        <input type="radio" name="sexo" id="masc" checked>Masculino
+                        <input type="radio" name="sexo" id="fem">Feminino
+                    </p>       
+                    <input id="botao" type="submit" value="Verificar" onclick="verificar()">    
                 </div>
-                <div>
-                    <label>Sexo:</label>
-                    <input type="radio" name="sexo" id="masc" checked>Masculino
-                    <input type="radio" name="sexo" id="fem">Feminino
-                </div>
-                <input id="botao" type="submit" value="Verificar Idade" onclick="verificar()">
-                <div id="age">
-                    <img id="image">
-                </div>
+                <div id="age"></div>
             </section>
         </main>
 
