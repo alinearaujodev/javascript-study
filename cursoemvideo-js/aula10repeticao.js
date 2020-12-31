@@ -11,3 +11,8 @@ do {
     console.log(i)
     i++
 } while (i <=10)
+
+// REPETICAO PARA CONTAR DE 10 ATE 1 COM FOR 
+for(var a = 10; a >= 1; a--){
+    console.log(a)
+}
