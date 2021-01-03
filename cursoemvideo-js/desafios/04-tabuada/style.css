@@ -1,0 +1,41 @@
+body{
+    font: normal 12pt Arial;
+    text-align: center; 
+    color: white;
+    background-color: #2b1505;
+}
+
+section{
+    border-radius: 10px;
+    width: 400px; 
+    height: auto;
+    margin: auto;    
+    padding: 10px;
+    line-height: 40px;
+    background-color: chocolate;
+    box-shadow: 5px 5px 10px rgba(43, 43, 43, 0.658);
+}
+
+input#botao{
+    background-color: white;
+    color: #773b10;
+    font-weight: bolder;
+    font-size: 10pt;
+    padding: 12px;
+    margin-top: 20px;
+    border: 2px #773b10 solid;
+}
+
+input#botao:hover{
+    background-color: #2b1505;
+    color: white ;
+    border: none;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
