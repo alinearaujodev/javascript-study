@@ -1,0 +1,24 @@
+body{
+    font: normal 12pt Arial;
+    text-align: center; 
+    color: white;
+}
+
+section#box{
+    border-radius: 10px;
+    color: white; 
+    width: 500px; 
+    margin: auto;    
+    line-height: 120px;  
+    box-shadow: 5px 5px 10px rgba(43, 43, 43, 0.658);
+}
+
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+a {
+    color: white;
+}
