@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Variáveis, Tipos de Dados, Tratamento de dados</title>
+    </head>
+    <body>
+        <script>
+            var nome = prompt("Qual seu nome?");
+            alert("Ótimo te conhecer, " + nome)
+            var year = Number(prompt("Estamos em qual ano " + nome + "?"))
+            var nasc = Number(prompt("Em qual ano você nasceu, " + nome + "?"))
+            var age = year - nasc      
+
+            document.write(`${nome}, sua idade é ${age} <br/>`)
+            document.write(`Seu nome tem ${nome.length} letras <br/>`)
+            document.write(`${nome} todo maiúsculo: ${nome.toUpperCase()} <br/>`)
+            document.write(`${nome} todo minusculo: ${nome.toLowerCase()} <br/>`)
+        </script>
+    </body>
+</html>
