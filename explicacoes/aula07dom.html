@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM</title>
+    </head>
+    <body>
+        <h1>O que é DOM?</h1>
+        <p>Document Object Model (Modelo de objetos para documentos) é um conjunto de objetos dentro do seu navegador que vai dá acesso aos componentes internos do seu website</p>
+        
+        <div name="h">
+            <h1>Arvore DOM</h1>
+            <div>
+                <p>Raiz - window</p>
+                <div>
+                    <p>URL - location</p>
+                    
+                    <div>
+                        <p>Documento atual - document</p>
+                        <div>
+                            <p>html</p>
+                            <div id="html">
+                                <p>head</p>
+                                <p>body</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>Seu histórico - history</p>        
+                </div>
+            </div>
+        </div>   
+        
+        <h1 class="color">Selecionando</h1>
+        <div>
+            <p>Por Tag - getElementsByTagName()</p>
+            <p>Por ID - getElementById()</p>
+            <p>Por Name - getElementsByName()</p>
+            <p>Por Class - getElementsByClassName()</p>
+            <p>Por Selector - querySelector() querySelectorAll()</p>
+        </div>
+
+        <script>   
+            // Tag
+            var p1 = document.getElementsByTagName('p')[2]
+            document.write(p1.innerText)
+
+            //Id
+            var d = document.getElementById('html')
+            d.style.background = 'green'
+
+            //Name
+            var x = document.getElementsByName('h')[0]
+            x.style.textAlign = 'center'
+
+            //Class
+            var c = document.getElementsByClassName('color')[0]
+            document.write(c.innerText)
+
+            //Selector
+            document.querySelector('div.color').style.color = 'black'
+        </script>
+    </body>
+</html>
