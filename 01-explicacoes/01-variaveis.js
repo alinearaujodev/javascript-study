@@ -8,6 +8,8 @@ var Vouf = true; // Boolean: Verdadeiro
 var nome = 'Aline'; // String: Caracter 
 var nullVar = null; // Null: Variável sem valor
 var und; // Undefined: variável foi declarada, pórem não recebeu nenhum valor
+console.log('Meu nome é', nome);
+
 
 // Declarando as variáveis
 var variavel; // Aqui como não foi definido o valor, a variavel será tratada como undefined
@@ -20,3 +22,6 @@ function escopolocal(){
     let local = 'local';
     console.log(local)
 }
+
+// Exibir valores de saída
+alert('Janela de alerta no navegador')
