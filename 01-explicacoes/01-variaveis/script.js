@@ -1,3 +1,6 @@
+
+var meuNome = 'aline';
+
 /* 
 // Exibir valores de saída
 alert('Janela de alerta no navegador')
@@ -17,8 +20,8 @@ var variavel; // Aqui como não foi definido o valor, a variavel será tratada c
 /* 
 // Tipo de Variaveis 
 var num = 5; // Number
-var vouF = false; // Boolean: Falso
-var Vouf = true; // Boolean: Verdadeiro
+var falso = false; // Boolean: Falso
+var verdadeiro = true; // Boolean: Verdadeiro
 var nome = 'Aline'; // String: Caracter 
 var nullVar = null; // Null: Variável sem valor
 var und; // Undefined: variável foi declarada, pórem não recebeu nenhum valor
