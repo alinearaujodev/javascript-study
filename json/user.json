@@ -1,0 +1,14 @@
+[
+    {
+        "name": "aline",
+        "age": 22,
+        "haveChild": true,
+        "hobbies": ["soccer", "read", "music"]
+    },
+    {
+        "name": "Cynd",
+        "age": 21,
+        "haveChild": false,
+        "hobbies": ["music", "read", "games"]    
+    }
+]
